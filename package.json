@@ -1,0 +1,10 @@
+{
+  "name": "bunkins",
+  "private": true,
+  "description": "Bunkins unified app runner",
+  "scripts": {
+    "build": "npm --prefix frontend run build",
+    "start": "node start.cjs",
+    "dev": "npm run start"
+  }
+}
